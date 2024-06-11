@@ -7,11 +7,6 @@ body {
     background-color:#2B4033 ;
    }
 
-.imgca {
-    width: 15%;
-    
-}
-
 header {
     display: flex;
     justify-content: space-around;
@@ -33,7 +28,8 @@ header {
 }
 
 .tam{
- padding: 15px;
+    padding: 15px;
+    border: 3px
 
 header a{
     color: rgb(255, 255, 255);
