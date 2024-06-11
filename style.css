@@ -1,4 +1,5 @@
 body {
+    color:white ;
     background-color:#2B4033 ;
    }
 
@@ -16,7 +17,7 @@ header {
 }
 
 .Objetivo{ 
-    display: flex-wrap;
+    display:flex;
     margin: 30px;
     background-color:#8FA578;
     padding: 30px;
@@ -24,6 +25,9 @@ header {
     font-size: 130%;
 }
 
+.tam{
+    width: 50%;
+}
 
 header a{
     color: rgb(255, 255, 255);
