@@ -22,33 +22,9 @@ header {
     padding: 30px;
     border: 3px solid black;
     font-size: 130%;
-
 }
 
-.intro {
-    display: flex;
-    margin: 30px;
-    background-color: rgb(241, 226, 91);
-    padding: 30px;
-    border: 3px solid black;
-    font-size: 130%;
-}
 
-.bob {
-    width: 15%;
-}
-
-#equipe {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
-    background-color: rgb(218, 179, 80);
-    border: 3px solid black;
-}
-
-.Ju {
-    width: 30%;
-}
 header a{
     color: black;
     text-decoration: none;
