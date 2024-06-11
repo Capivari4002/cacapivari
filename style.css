@@ -19,7 +19,9 @@ header {
    background-color:#8FA578;
     font-size: 120%;
 }
-
+.tam{
+    border: #D9D9D9;
+}
 .obj{
     text-align: center;
     padding: 12px 0;
