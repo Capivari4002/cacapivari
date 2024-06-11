@@ -15,8 +15,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid rgb(0, 0, 0);
-    background-color:#8FA578;
+   background-color:#8FA578;
     font-size: 120%;
 }
 
