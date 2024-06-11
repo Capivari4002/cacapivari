@@ -1,80 +1,94 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #2e492f;
-    color: #ffffff;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-.header {
-    background-color: #3d6b41;
-    padding: 10px;
-}
-
-.header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-.header .menu {
-    margin-top: 10px;
-}
-
-.header .menu a {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #202020;
     color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-.content {
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.content img {
-    width: 100%;
-    max-width: 600px;
-    border: 2px solid #3d6b41;
-    border-radius: 5px;
-}
-
-.content p {
-    background-color: #3d6b41;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6b8e23;
     padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
 }
 
-.content h2 {
-    margin-top: 30px;
-}
-
-.footer {
-    background-color: #3d6b41;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-.footer p {
+header h1 {
     margin: 0;
 }
 
-.footer a {
-    color: white;
+header .saiba-mais {
+    color: #ffffff;
     text-decoration: none;
-    margin: 0 10px;
+    background-color: #556b2f;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header .saiba-mais:hover {
+    background-color: #6b8e23;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #303030;
+    border-radius: 0 0 10px 10px;
+}
+
+.main-content .main-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    border: 5px solid #6b8e23;
+    border-radius: 10px;
+}
+
+.objective {
+    background-color: #556b2f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.definition, .consequences {
+    margin-bottom: 20px;
 }
 
 .symptoms {
     list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
+    padding-left: 0;
 }
 
 .symptoms li {
-    background-color: #3d6b41;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
 }
