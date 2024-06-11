@@ -6,7 +6,9 @@ body {
     color:white ;
     background-color:#2B4033 ;
    }
-
+.tam{
+    width: 15px;
+}
 header {
     display: flex;
     justify-content: space-around;
@@ -27,10 +29,9 @@ header {
     font-size: 130%;
 }
 
-img.tam{
+.tam{
     width: 15px;
-    padding: 15px;
-    border: 3px
+
 
 header a{
     color: rgb(255, 255, 255);
