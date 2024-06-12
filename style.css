@@ -8,9 +8,7 @@ body {
    }
 .tam{
     width: 180px;
-    margin: auto;
-    padding: 22px;
-}
+    
 header {
     display: flex;
     justify-content: space-around;
