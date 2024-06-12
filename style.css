@@ -10,13 +10,11 @@ body {
     width: 180px;
     
 header {
-    display: flex;
     justify-content: space-around;
     align-items: center;
-   background-color:#8FA578;
+    border: 3px solid black;
+    background-color: #8FA578;
     font-size: 120%;
-    padding: 30px;
-
 .obj{
     text-align: center;
     padding: 12px 0;
