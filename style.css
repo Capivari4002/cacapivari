@@ -31,14 +31,16 @@ header {
     font-size: 130%;
 }
 
+
+.intro{
+   margin: 0%;
+    padding: 20px;
+}
+
 .tam{
     width: 276px;
 }
 
-.saiba-mais{
-    padding: 20px;
-
-}
 header a{
     color: rgb(255, 255, 255);
     text-decoration: none;
