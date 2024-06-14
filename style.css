@@ -6,15 +6,18 @@ body {
     color:white ;
     background-color:#2B4033 ;
    }
+
 .tam{
     width: 180px;
-    
+}
+
 header {
     justify-content: space-around;
     align-items: center;
     border: 3px solid black;
     background-color: #8FA578;
     font-size: 120%;
+}
 .obj{
     text-align: center;
     padding: 12px 0;
@@ -30,7 +33,7 @@ header {
 
 .tam{
     width: 15px;
-
+}
 
 header a{
     color: rgb(255, 255, 255);
