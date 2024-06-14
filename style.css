@@ -14,7 +14,6 @@ body {
 header {
     justify-content: space-around;
     align-items: center;
-    border: 3px solid rgb(255, 255, 255);
     background-color: #8FA578;
     font-size: 120%;
 }
@@ -38,8 +37,8 @@ header {
 }
  
 .sb{
-    margin: 0%;
-    padding: 20px;
+    padding: 15px;
+    font-size: 117%;
 }
 
 .tam2{
