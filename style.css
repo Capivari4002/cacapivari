@@ -41,13 +41,17 @@ header {
 }
  
 .sb{
-    padding: 15px;
-    font-size: 117%;
-}
+    display: flex
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-aroud;
+    margin:20px;
 
-.tam2{
-    width: 276px;
-    margin-right: auto;
+    .tam2{
+        width: 276px;
+        margin-right: auto;
+    }
+    
 }
 
 header a{
