@@ -2,8 +2,6 @@
     margin: 0;
 }
 
-
-
 body {
     color:white ;
     background-color:#2B4033 ;
@@ -41,17 +39,13 @@ header {
 }
  
 .sb{
-    display: flex
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-aroud;
-    margin:20px;
+    padding: 15px;
+    font-size: 117%;
+}
 
-    .tam2{
-        width: 276px;
-        margin-right: auto;
-    }
-    
+.tam2{
+    width: 276px;
+    margin-right: auto;
 }
 
 header a{
