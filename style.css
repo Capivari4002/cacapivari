@@ -43,6 +43,9 @@ header {
     font-size: 117%;
 }
 
+.tam2{
+    width: 50px;
+}
 header a{
     color: rgb(255, 255, 255);
     text-decoration: none;
