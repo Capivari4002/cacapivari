@@ -43,6 +43,11 @@ header {
     font-size: 117%;
 }
 
+.mm{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .tam2{
     width: 210px; 
 }
